@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 	"errors"
-	"golisp/types"
+	"github.com/gefarion/golisp/types"
 )
 
 func addAtom(sexpr *string, stack_expr []types.LispList) {
